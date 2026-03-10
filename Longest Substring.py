@@ -8,7 +8,3 @@ def lengthOfLongestSubstring(s):
         char_set.add(s[right])
         max_len = max(max_len, right - left + 1)
     return max_len
-
-# Example
-s = "abcabcbb"
-print(lengthOfLongestSubstring(s))  # Output: 3
